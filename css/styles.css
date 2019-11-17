@@ -1,0 +1,137 @@
+body {
+  background-color: #E5EFF5;
+  font-family: "Karla", sans-serif;
+  max-width: 1440px;
+  margin: auto;
+  padding-top: 10%;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 1.25rem;
+}
+
+h3 {
+  color: #FFF;
+}
+
+p {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.5rem;
+}
+
+ul {
+  color: hsla(360, 100%, 100%, 0.75);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 8px;
+  box-shadow:0 2px 6px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.18);
+  color: #FFF;
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  margin-top: 1.15rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: hsl(71, 73%, 45%);
+}
+
+.price-month {
+  color: hsla(360, 100%, 100%, 0.75);
+  margin-top: 2rem;
+}
+
+.price {
+  color: #FFF;
+  font-size: 2rem;
+  padding-right: 5px;
+}
+
+.price-text {
+  color: #FFF;
+}
+
+.main-container {
+  border-radius: 10px;
+  box-shadow:0 2px 6px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.18);
+  width: 50%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  padding: 1.5rem 3rem 1.5rem 3rem;
+}
+
+.bottom-container {
+  display: flex;
+}
+
+.left-container, .right-container {
+  padding: 1.5rem 3rem 1.5rem 3rem;
+}
+
+.left-container {
+  background-color: #4AB4B4;
+  border-bottom-left-radius: 10px;
+  width: 50%;
+}
+
+.right-container {
+  background-color: #4FBFBD;
+  border-bottom-right-radius: 10px;
+  width: 50%;
+}
+
+@media only screen and (max-width:1145px) {
+  .main-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-container {
+    width: 100%;
+    align-self: center;
+  }
+
+  .bottom-container {
+    flex-direction: column;
+  }
+
+  .left-container {
+    align-self: center;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .right-container {
+    align-self: center;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width:765px) {
+  .main-container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+  }
+}
